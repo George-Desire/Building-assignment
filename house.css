@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin-left: 70px;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 40px 150px 60px 150px;
+    gap: 50px;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 80px 60px 80px;
+}
+.grid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 40px 150px 60px 150px;
+    gap: 50px;
+}
